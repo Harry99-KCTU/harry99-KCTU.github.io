@@ -1,0 +1,36 @@
+/* CSS Document */
+
+
+/*Individual styles in relation to the img. It constants from the other images in terms of the size of the width.*/
+#wrap-img {
+	width:60%;
+	left:-5.8%;
+	top:-70%;
+}
+
+#title-main {
+		left:5.3%;
+	    top:-155%;
+}
+
+#title-abstract, #title-rest, #wrap-godot {
+	 position: absolute;
+}
+
+#title-rest{
+	    left:-6.3%;
+}
+
+#title-abstract {
+  left:57.3%;
+  top:-75%; 
+}
+
+#wrap-godot {
+	left:20%;
+}
+
+
+
+
+

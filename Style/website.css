@@ -1,0 +1,54 @@
+/* CSS Document */
+
+section img {
+	left:25.2%;
+}
+
+#wrap-illustrator, section img {
+		width:15.6%;
+}
+#title-main {
+		left:5.5%;
+}
+
+#title-main-3d {
+		left:64.5%;
+}
+/*Individual styles for the background video.*/
+#title-background {
+		left:2%;
+}
+
+/*Individual styles for the background video.*/
+#title-background-3d {
+		left:56.5%;
+}
+
+/*Individual styles in relation to the img of the logo of Unity. It constants from the other images in terms of the size of the width.*/
+#wrap-js {
+	left:47.2%;
+}
+
+/*Individual styles in relation to the img of the logo of PHP*/
+#wrap-php {
+  left:81.2%;	
+}
+
+/*Individual styles in relation to the img of the logo of photoshop*/
+#wrap-photoshop {
+  left:21.2%;	
+}
+/*Individual styles in relation to the img of the logo of Scratch. It constants from the other images in terms of the size of the width.*/
+#wrap-illustrator{
+	width:15.6%;
+	left:-14.2%;
+}
+
+
+
+
+
+
+
+
+

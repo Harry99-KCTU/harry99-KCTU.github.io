@@ -1,0 +1,28 @@
+/* CSS Document */
+
+section img {
+	left:6.4%;
+}
+
+#title-main {
+		left:42.5%;
+}
+
+/*Individual styles for the background video.*/
+#title-background {
+		left:23.5%;
+}
+
+/*Individual styles in relation to the img of the logo of python. It constants from the other images in terms of the size of the width.*/
+#wrap-python {
+	width:15.6%;
+	left:37.8%;
+}
+
+/*Individual styles in relation to the img of the logo of python. It contrasts from the other images in terms of the coordinates for the x-axis.*/
+#wrap-gym {
+  left:68.8%;	
+}
+
+
+

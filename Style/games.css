@@ -1,0 +1,87 @@
+/* CSS Document */
+
+section img {
+	left:25.2%;
+}
+
+#wrap-unity, section img {
+		width:15.6%;
+}
+#title-main {
+		left:10%;
+}
+
+#title-main-3d {
+		left:71.5%;
+}
+/*Individual styles for the background video.*/
+#title-background {
+		left:-7.5%;
+}
+
+/*Individual styles for the background video.*/
+#title-background-3d {
+		left:54.5%;
+}
+
+/*Individual styles in relation to the img of the logo of Unity. It constants from the other images in terms of the size of the width.*/
+#wrap-unity {
+	left:47.2%;
+}
+
+/*Individual styles in relation to the img of the logo of Godot*/
+#wrap-godot {
+  left:81.2%;	
+}
+
+/*Individual styles in relation to the img of the logo of Godot*/
+#wrap-java {
+  left:21.2%;	
+}
+
+#wrap-umblogo {
+    top:8%;
+	height:42%;	
+	width:100.5%;
+	opacity: 0.25;
+}
+
+/*Individual styles in relation to the img of the logo of Scratch. It constants from the other images in terms of the size of the width.*/
+#wrap-scratch{
+	width:15.6%;
+	left:-14.2%;
+}
+
+video, #video-top, #wrap-amzlogo, #wrap-umblogo {
+	position: absolute;
+}
+
+video {
+	height:775px;
+	opacity:0.3;
+	width:100%;
+	top:400px;
+	pointer-events: none;
+}
+
+#video-top {
+	top:400px;
+
+}
+
+#wrap-amzlogo {
+	top:14.5%;
+	left:69.5%;
+
+}
+
+#wrap-umbman {
+	top:24.5%;
+	left:21.5%;
+}
+
+#logo {
+	top:0%;
+	height:20%
+}
+

@@ -1,0 +1,38 @@
+/* CSS Document */
+
+#title-abstract, iframe
+ { 
+	 position: absolute;
+}
+/*Individual styles in relation to the img. It constants from the other images in terms of the size of the width.*/
+iframe {
+	width:35%;
+	left:18.8%;
+	top:35%;
+	height:37.5%;
+}
+
+#wrap-scratch {
+	left:12.8%;
+	width:5%;
+	height:16%;
+	top:-95%;
+}
+
+#title-main {
+		left:5.3%;
+	    top:-155%;
+}
+
+
+
+#title-abstract {
+ 
+	left:57.3%;
+    top:-75%; 
+}
+
+
+
+
+

@@ -1,0 +1,223 @@
+/* CSS Document */
+
+/*Style properties that exist for each element within the webpage. */
+body{
+	/*The width of the contents of the page is equal to the entirety of the webpage. */
+	width:100%;
+	/*Padding is set to 0% see that header is postioned at the top left of the page. */
+	margin:0%;
+	/*The default background of the page is the dark theme (black background). This can be changed with the clicking of the image on the button on the top right side of the webpage (colorThmeJS.js). */
+	background-color: #000000;
+}
+
+/*Positions for each of these elements exist independaly of each other. */
+footer, nav, img, #copyright, h2, #wrap-underline-games:hover::after,  #wrap-underline-websites:hover::after,  #wrap-underline-editing:hover::after, #wrap-underline-about:hover::after, h1,  section, #title-main, #title-main-3d, #title-background, #title-background-3d, m, section img, #wrap-email {
+	position:absolute;	
+} 
+
+/*Positions for each of these elements exist relative to each other. */
+#logo, #wrap-git, #wrap-email {
+	position: relative;
+}
+
+/*Shared styles between the header, and footer of the webpage. This can be changed with the clicking of the image on the button on the top right side of the webpage (colorThmeJS.js). */
+header,footer {
+	background-color: #263CA7;
+	height:4.8rem;
+}
+
+/*Individual styles in relation to the footer.*/
+footer {
+	top:69.2rem;
+	/*The width of the contents of the page is equal to the entirety of the webpage. */ 
+	width:100%;	
+}
+
+section img {
+	/*Style elements of a percentage of the width and length of the main section  style.This effects top, height, width, and left.*/
+	top:81.2%;
+	height:54%;
+	width:15.2%;
+	border-radius: 50%;
+	/*Border shares a color with the header (dark-blue). */
+	border: 1px solid #304BD0;
+}
+
+
+/*All images within the main's section change color once the user hovers over them.*/
+section img:hover {
+/*Border hover shares a color with the header nav's underline (gold). */
+ border: 1px solid #A79026;	
+}
+
+
+
+
+/*Individual styles in relation to the section on the webpage.*/
+section {
+	font-family: Candara;
+	font-style: italic;
+	/*Same color as hover of section images. */
+	color: #A79026;
+	font-size:60px;
+	/*Contents within the main are all located within the section html tag. With the only exception to this being the video tag. */
+	font-weight:bold;
+	height:18.52%;
+	width:46.04%;
+	top:45.98%;
+	left:31%;
+}
+
+/*Individual styles in relation to the title of the page (main section).*/
+#title-main, #title-main-3d {
+	    top:0%;
+		font-size: 2.75rem;
+}
+
+
+/*Individual styles in relation to the logo (top left of the page).*/
+#logo {
+  top:-.656rem;
+  width:3.125%;
+  height:2.865%;	
+  left:24.34375%;
+}
+
+/*Individual styles for the h1 tag. This encompasses the logo.*/
+h1 {
+	font-family:Georgia;
+	font-size:2.49rem;
+	/*The logo lettering appears as a single entity instead of multiple. */
+	letter-spacing: -12px;
+	top:0%;
+}
+
+/*Individual styles for the a tag.*/
+a {
+	/*Every link located in the navigation bar does not require a line of length that includes space between words. */
+	text-decoration: none;
+}
+
+/*Individual styles for the github image.*/
+#wrap-git {
+	/*Postioning within footer (at left 0%). */
+	left:4.15%;
+}
+
+/*Individual styles for the email image.*/
+#wrap-email {
+	/*Postioning within footer (at left 0%). */
+	left:4.5%;
+	height:30%;
+	top:10%;
+}
+
+footer #wrap-git img:hover {
+	filter: hue-rotate(115deg);
+}
+
+
+/*Shared styles between the a, h1, and h3 tag of the webpage.*/
+a, h1, h3 {
+	color: #fbeeee;
+}
+
+/*Individual styles for the copright symbol.*/
+ #copyright {
+	font-family:Tw Cen MT Condensed;
+	font-size: 1.85rem;
+	top:-0.35rem;
+	font-weight: normal;
+	left:85.75%;
+}
+
+/*Individual styles for the footer images.*/
+footer img {
+  top:1.05rem;
+  left:0.4125rem;
+  height:2.5625rem;
+ /*Gives linked in logo golden colour. */	
+  filter: hue-rotate(215deg);	
+}  
+
+main img {
+	top:100%;
+}
+
+/*Individual styles for the footer images once hovered over.*/
+footer img:hover {
+	  filter: hue-rotate(20deg);
+}
+
+/*Shared styles between the images located in the header, and the footer.*/
+footer img, header img {
+	  top:1.05rem;
+}
+
+/*Individual styles for the header images.*/
+header img {
+	height:2.75rem;
+	left:115.525rem;
+	width:2.625rem;
+}
+
+
+nav {
+	left:26.98%;
+	top:1.328rem;
+	word-spacing:8.625rem;
+}
+
+p {
+	font-size:1.75rem;
+	font-family:Franklin Gothic Medium Cond;
+	display:inline;
+}
+
+
+/*Text for AI is a different size to the other pieces of txt located within the navigation bar.*/
+#centre-txt {
+	font-size:2.5rem; 
+	font-weight: 600;	
+}
+
+/* */
+#logo:hover, #centre-txt:hover {
+	color:#d9c359;
+}
+
+/*Each header in the nav bar located in the header in given its own underline with the following styles. */
+ #wrap-underline-games:hover::after,  #wrap-underline-websites:hover::after, #wrap-underline-editing:hover::after,  #wrap-underline-about:hover::after {
+	content: '';
+	height:0.1rem; 
+	background:#d9c359;
+	bottom: 0px;
+}
+
+
+/*Each header in the nav bar located in the header in given its own underline hover, of a unique width and location. */
+ #wrap-underline-games:hover::after {
+	width:8%;
+	left:0%;
+}
+
+ #wrap-underline-websites:hover::after {
+	width:10%;
+	left:24.28%;
+}
+
+ #wrap-underline-editing:hover::after {
+	width:8.2%;
+	left:69.56%;
+}
+
+ #wrap-underline-about:hover::after {
+	width:7%;
+	left:93.16%;
+}
+
+
+
+
+
+

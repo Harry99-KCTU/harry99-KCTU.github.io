@@ -1,0 +1,48 @@
+/* CSS Document */
+#wrap-img, #title-abstract, #wrap-python, #wrap-gym, #wrap-serpent, #title-rest {
+	position: absolute;
+}
+
+/*Individual styles in relation to the img of the logo of brickbreaker. It constants from the other images in terms of the size of the width.*/
+#wrap-img {
+	width:80%;
+	left:-25.8%;
+	top:-35%;
+}
+
+
+#title-rest {
+	top:165%;
+}
+
+#title-main {
+		left:-5.3%;
+	    top:-155%;
+}
+
+#title-abstract {
+ left:57.3%;
+ top:-55%; 
+}
+
+#wrap-python, #wrap-gym, #wrap-serpent {
+	width:5%;
+	height:16%;
+	top:-95%;
+}
+
+#wrap-python {
+	left:13.8%; 
+}
+
+#wrap-gym {
+	left:-5.8%; 
+}
+
+#wrap-serpent {
+	left:30.8%; 
+}
+
+
+
+

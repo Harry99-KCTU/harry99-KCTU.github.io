@@ -1,0 +1,12 @@
+/* CSS Document */
+
+/*Individual styles in relation to the background video played on the webpage.*/
+video {
+	position: absolute;
+	/*The width of the contents of the page is equal to the entirety of the webpage. This is the same for the footer, and body tags.*/ 
+	width:100%;
+	/*Made less visable in order to make the text located within the main tag more visable. */
+	opacity: 0.3;
+	/*The user cannot change affect the background video being played. */
+	pointer-events: none;
+}

@@ -1,0 +1,74 @@
+/* CSS Document */
+
+section img {
+	left:25.2%;
+}
+
+background {
+	opacity: 0.3;
+}
+
+#wrap-illustrator, section img {
+		width:15.6%;
+}
+#title-main {
+		left:-7.3%;
+	    top:-155%;
+}
+
+#title-rest, #wrap-scratch{
+        position: absolute;    
+}
+
+
+#title-rest{
+	    left:-26.3%;
+	    top:145%;
+}
+
+/*Individual styles for the background video.*/
+#title-background {
+		left:70.5%;
+	    top:-50%;
+}
+
+/*Individual styles for the background video.*/
+#title-background-3d {
+		left:56.5%;
+}
+
+/*Individual styles in relation to the img of the logo of brickbreaker. It constants from the other images in terms of the size of the width.*/
+#wrap-img {
+	width:80%;
+	left:-25.8%;
+	top:-70%;
+}
+
+#wrap-scratch, #wrap-java, #wrap-unity, #wrap-godot, #wrap-prem {
+	width:5%;
+	height:16%;
+	top:-95%;
+}
+
+#wrap-scratch, #wrap-java, #wrap-unity, #wrap-prem{
+	left:12.8%;
+}
+section img {
+	width:85%;
+	height:185%;
+	left:-25%;
+	top:-64.5%;
+	border-radius: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
