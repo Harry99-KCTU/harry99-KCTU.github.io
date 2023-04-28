@@ -26,11 +26,8 @@ header,footer {
 	height:4.8rem;
 }
 
-/*Individual styles in relation to the footer.*/
 footer {
-	top:69.2rem;
-	/*The width of the contents of the page is equal to the entirety of the webpage. */ 
-	width:100%;	
+		width:100%;
 }
 
 section img {
@@ -126,7 +123,6 @@ a, h1, h3 {
  #copyright {
 	font-family:Tw Cen MT Condensed;
 	font-size: 1.85rem;
-	top:-0.35rem;
 	font-weight: normal;
 	left:85.75%;
 }
@@ -157,7 +153,6 @@ footer img, header img {
 /*Individual styles for the header images.*/
 header img {
 	height:2.75rem;
-	left:115.525rem;
 	width:2.625rem;
 }
 
@@ -216,7 +211,40 @@ p {
 	left:93.16%;
 }
 
-
+@media only screen and (max-height: 1000px) and (min-height: 0px)  {
+/*Individual styles in relation to the footer.*/
+ #copyright {
+	/*The width of the contents of the page is equal to the entirety of the webpage. */ 	
+	top:-1.5rem;	
+  }
+	footer {
+	/*The width of the contents of the page is equal to the entirety of the webpage. */ 	
+	top:58.2rem;	
+  }
+	
+		/*Individual styles for the header images.*/
+   header img {
+	left:95.525rem;
+ }
+}
+	
+@media only screen and (max-height: 2000px) and (min-height: 1001px)  {
+/*Individual styles in relation to the footer.*/
+ #copyright {
+	/*The width of the contents of the page is equal to the entirety of the webpage. */ 	
+	top:-0.35rem;	
+  }
+	
+	footer {
+	/*The width of the contents of the page is equal to the entirety of the webpage. */ 	
+	top:69.2rem;	
+  }	
+	
+	/*Individual styles for the header images.*/
+header img {
+	left:115.525rem;
+ }
+}
 
 
 

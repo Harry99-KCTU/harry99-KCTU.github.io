@@ -60,14 +60,9 @@ video {
 	height:775px;
 	opacity:0.3;
 	width:100%;
-	top:400px;
 	pointer-events: none;
 }
 
-#video-top {
-	top:400px;
-
-}
 
 #wrap-amzlogo {
 	top:14.5%;
@@ -83,5 +78,26 @@ video {
 #logo {
 	top:0%;
 	height:20%
+}
+
+@media only screen and (max-height: 1000px) and (min-height: 0px)  {
+ #video-top {
+	top:190px;
+ }
+	
+	video {
+	top:175px;
+  }
+	
+}
+
+@media only screen and (max-height: 2000px) and (min-height: 1050px)  {
+ #video-top {
+	top:400px;
+ }
+	
+	video {
+	top:400px;
+  }
 }
 

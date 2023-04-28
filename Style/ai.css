@@ -21,15 +21,9 @@
 	top:175%;
 }
 
-#title-main {
-		left:-15.3%;
-	    top:-155%;
-}
-
-#title-abstract {
- left:57.3%;
- top:-115%; 
-}
+ #title-abstract {
+  left:57.3%;
+ }	
 
 #wrap-python, #wrap-gym, #wrap-serpent {
 	width:5%;
@@ -49,6 +43,25 @@
 	left:30.8%; 
 }
 
+@media only screen and (max-height: 1000px) and (min-height: 0px)  {
+ #title-abstract {
+   top:-165%; 
+  }		
+	#title-main {
+	    top:-185%;
+		left:-25.3%;
+  }
+}
+
+@media only screen and (max-height: 2000px) and (min-height: 1001px)  {
+ #title-abstract {
+   top:-115%; 
+  }	
+	#title-main {
+	    top:-155%;
+		left:-15.3%;
+  }
+}
 
 
 
